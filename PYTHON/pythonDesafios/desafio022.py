@@ -1,0 +1,5 @@
+name = str(input('Digite o nome:'))
+print(f'O nome com letras maiusculas:{name.upper()}')
+print(f'O nome com letras min[usculas:{name.lower()}')
+print(f'O nome possui {len(name.strip())} letras')
+print(f'Ha {count(name.split(2))} letras no primeiro nome.')
